@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/glide.core.min.css"/>
+    <link rel="stylesheet" href="css/glide.theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <title>DM</title>
+</head>
+<body id="home">
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">S M I 7 E</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#gallery" class="navbar__links" id="gallery-page">Gallery</a>
+            </li>
+            <li class="navbar__item">
+                <a  href="mailto:satyrnspaciousmi7e@gmail.com" class="navbar__links" id="contact-page">
+                  Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <!-- Hero Section -->
+    <div class="hero" >
+        <div class="hero__container" data-aos="fade-up">
+          <h1 class="hero__heading">D O M I N I Q U E <span> </br>M I L L E R</span> </h1>
+          <p class="hero__description"></p>
+        </div>
+      </div>
+      <!-- Skills Section -->
+      <div class="gallery" id="gallery" > 
+        <h1 data-aos="fade-up">G A L L E R Y</h1>
+      <div class="skills" data-aos="fade-up">
+        <div class="images glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class=glide__slides>
+                    <li class="glide__slide">
+                        <img src="img/4.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/12.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                        <img src="img/3.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                        <img src="img/2.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                        <img src="img/5.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/9.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/6.png">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/10.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/7.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                        <img src="img/1.jpg">
+                    </li>                
+
+                    <li class="glide__slide">
+                      <img src="img/8.jpg">
+                    </li>
+
+                    <li class="glide__slide">
+                      <img src="img/11.png">
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <p class="footer">&copy; Copyright 2020 Dominique Miller</p>
+        </div>
+        
+      </div>  
+     </div> 
+
+
+      <!-- About Section
+      <div class="services" id="skills">
+        <h1>S K I L L S</h1>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <h2>Custom Colorways</h2>
+            <p>AI Powered technology</p>
+            <div class="services__btn"><button>Get Started</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Are you Ready?</h2>
+            <p>Take the lepa</p>
+            <div class="services__btn"><button>Get Started</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Full Gradients</h2>
+            <p>100 Combinations</p>
+            <div class="services__btn"><button>Get Started</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Infinite Choices</h2>
+            <p>1000's of colors</p>
+            <div class="services__btn"><button>Get Started</button></div>
+          </div>
+        </div>
+      </div> -->
+  
+
+  
+      <script src="script/app.js"></script>
+      <script src="script/glide.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 3000
+        } 
+        );
+      </script>
+      <script>
+        new Glide('.images', {
+        type:'carousel',
+        perView:3,
+        focusAt:'center',
+        gap:40,
+        breakpoints:{
+            1200:{
+            perView:3
+            },
+            800:{
+            perView:1
+            }
+        }
+        }).mount();
+        </script>
+				
+    </body>
+  </html>
+  
+
+</body>
+</html>
