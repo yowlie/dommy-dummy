@@ -163,7 +163,7 @@
   /* Hero Section */
   .hero {
     background: #131313;
-    padding: 200px 0;
+    padding: 150px 0;
   }
   
   .hero__container {
@@ -397,6 +397,20 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+  }
+
+  .contacts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 30px;
+  }
+
+  .logo{
+    width: 50px;
+    align-items: center;
   }
 
   .footer{
